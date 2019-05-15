@@ -2,9 +2,8 @@ import pygame
 
 # first we initialize the pygame
 pygame.init()
-
-bg = pygame.image.load('bg.jpg')
 gamelen, gamewidth = 500, 500
+bg = pygame.image.load('bg.jpg')
 win = pygame.display.set_mode((gamelen, gamewidth))
 
 class Ball():
@@ -22,8 +21,10 @@ class Ball():
         self.stationary = True
         self.jumpcount = 10
         self.double_jump = False
-        self.max_jump =3
-        self.current_jump = 0
+        self.gravity = 1
+        self.jump_vel = 20
+        self.apex = 0
+        self.stop = -10
 
     def draw(self, win):
         if not self.stationary:
@@ -38,18 +39,13 @@ class Ball():
             else:
                 win.blit(self.ball, (self.x, self.y))
 
-
-
+def redraw():
+    win.blit(bg, (0, 0))  # blit in the top right corner
+    ball.draw(win)
+    pygame.display.update()  # update the display
 
 ball = Ball()
-def redraw():
-    win.blit(bg, (0,0)) # blit in the top right corner
-    ball.draw(win)
-    pygame.display.update() # update the display
-
 game = True
-
-previous_hit_time = pygame.time.get_ticks()
 while game:
     pygame.time.delay(10) # 10 milisecond deplay
 
@@ -58,19 +54,19 @@ while game:
         if event.type == pygame.QUIT:
             game = False
 
+    # print(ball.y)
+
     keys = pygame.key.get_pressed()
 
     if keys[pygame.K_LEFT] and ball.x > ball.vel:
         ball.x -= ball.vel
         ball.left = True
         ball.right = False
-        ball.jump = True
 
     elif keys[pygame.K_RIGHT] and ball.x < gamewidth - ball.width - ball.vel:
         ball.x += ball.vel
         ball.right = True
         ball.left = False
-        ball.jump = True
 
     else:
         ball.stationary = True
@@ -80,26 +76,23 @@ while game:
             ball.jump = True
             jump_time = pygame.time.get_ticks()
     else:
-        # hit_time = pygame.time.get_ticks()
-        # if ball.current_jump < ball.max_jump and hit_time - previous_hit_time > 800:
-        #     ball.current_jump +=1
-        #     if keys[pygame.K_SPACE]:
-        #         ball.jumpcount +=10
-        #         apex +=10
-        #         previous_hit_time = hit_time
-        #     if ball.current_jump == ball.max_jump:
-        #         ball.current_jump = 0
-        #
-        apex = ball.jumpcount / 2
-        neg = 1
-        if ball.jumpcount >= -10:
-            neg = 1
-            if ball.jumpcount < apex:
-                neg = -1
-            ball.y -= (ball.jumpcount **2) * .5 * neg
-            ball.jumpcount -=1
-        else:
+        ball.jump_vel -= 1
+        print(ball.y)
+        ball.y -=ball.jump_vel
+
+        if ball.jump_vel < 0:
+            if keys[pygame.K_SPACE]:
+                ball.jump_vel +=20
+        if ball.y >= 400:
+            ball.jump_vel += 20
+            ball.apex = ball.jump_vel / 2
+
+        if ball.y >= 400:
             ball.jump = False
-            ball.jumpcount = 10
+            ball.jump_vel = 20
+            # ball.jump_vel = 20
+
+
+
     redraw()
 
