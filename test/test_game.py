@@ -1,0 +1,12 @@
+import unittest
+
+
+class TestGame(unittest.TestCase):
+
+    pass
+
+
+# if __name__ == '__main__':
+#     unittest.main()
+
+print(__name__)

@@ -43,6 +43,9 @@
       <change beforePath="$PROJECT_DIR$/pygame-tutorials/Game/R9.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pygame-tutorials/Game/R9E.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pygame-tutorials/Game/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-tutorials/Game/bullet.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-tutorials/Game/hit.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pygame-tutorials/Game/music.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pygame-tutorials/Game/standing.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,78 +56,102 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PyGame Intro.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PyGame Intro.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2820">
-              <caret line="189" selection-start-line="189" selection-end-line="189" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="program.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ball.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ball.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
-              <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tutorial #6.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pygame-tutorials/Game/Tutorial #6.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="cannon ball.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cannon ball.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="L1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L1.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="bg.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bg.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="L3E.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L3E.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="balljump_classes.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/balljump_classes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.47368422">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="PyGame Intro.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/programs/PyGame Intro.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="189" selection-start-line="189" selection-end-line="189" selection-end-column="43" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="program.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/programs/program.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#0#10#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ball.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/programs/ball.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1245">
+                  <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Tutorial #6.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pygame-tutorials/Game/Tutorial #6.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="balljump_classes.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/balljump_classes.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="146">
+                  <caret line="53" column="45" lean-forward="true" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/__init__.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="test_game.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/test_game.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/__init__.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/programs/__init__.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="balljump_classes.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/balljump_classes.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="220">
+                  <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -167,14 +194,19 @@
         <option value="$PROJECT_DIR$/PyGame Intro.py" />
         <option value="$PROJECT_DIR$/ball.py" />
         <option value="$PROJECT_DIR$/balljump_classes.py" />
+        <option value="$PROJECT_DIR$/programs/balljump_classes.py" />
+        <option value="$PROJECT_DIR$/programs/__init__.py" />
+        <option value="$PROJECT_DIR$/programs/test_game.py" />
+        <option value="$PROJECT_DIR$/test_game.py" />
+        <option value="$PROJECT_DIR$/test/__init__.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="26" />
-    <option name="width" value="1291" />
-    <option name="height" value="693" />
+    <option name="x" value="-24" />
+    <option name="y" value="23" />
+    <option name="width" value="1366" />
+    <option name="height" value="692" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -182,6 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,11 +222,15 @@
               <item name="PygameTut" type="b2602c69:ProjectViewProjectNode" />
               <item name="PygameTut" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PygameTut" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PygameTut" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,8 +238,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/pygame-tutorials" />
+      <recent name="$PROJECT_DIR$/programs" />
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/media" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,7 +270,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyGame Intro.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programs/PyGame Intro.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,7 +288,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ball.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programs/ball.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,29 +302,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/balljump_classes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="flappy" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PygameTut" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FlapPyBird" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlapPyBird/flappy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/balljump_classes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,26 +324,39 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/program.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programs/program.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Unittests in test_game.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PygameTut" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_game.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <list>
       <item itemvalue="Python.PyGame Intro" />
-      <item itemvalue="Python.flappy" />
       <item itemvalue="Python.program" />
       <item itemvalue="Python.ball" />
       <item itemvalue="Python.balljump_classes" />
+      <item itemvalue="Python tests.Unittests in test_game.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.balljump_classes" />
+        <item itemvalue="Python tests.Unittests in test_game.py" />
         <item itemvalue="Python.PyGame Intro" />
         <item itemvalue="Python.ball" />
         <item itemvalue="Python.program" />
-        <item itemvalue="Python.flappy" />
       </list>
     </recent_temporary>
   </component>
@@ -338,19 +373,46 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_game_py - 2019.05.26 at 00h 49m 31s.xml">
+      <configuration name="Unittests in test_game.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_game_py - 2019.05.26 at 00h 50m 11s.xml">
+      <configuration name="Unittests in test_game.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_game_py - 2019.05.26 at 00h 50m 28s.xml">
+      <configuration name="Unittests in test_game.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_game_py - 2019.05.26 at 00h 55m 35s.xml">
+      <configuration name="Unittests in test_game.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_game_py - 2019.05.26 at 00h 56m 34s.xml">
+      <configuration name="Unittests in test_game.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_game_py - 2019.05.26 at 00h 56m 55s.xml">
+      <configuration name="Unittests in test_game.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_game_py - 2019.05.26 at 00h 58m 13s.xml">
+      <configuration name="Unittests in test_game.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_game_py - 2019.05.26 at 00h 58m 50s.xml">
+      <configuration name="Unittests in test_game.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="26" width="1291" height="693" extended-state="0" />
+    <frame x="7" y="23" width="1366" height="693" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12755905" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13457249" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48657718" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.23825504" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32718122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32550335" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3979764" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32550335" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39765102" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -365,26 +427,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ball.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cannon ball.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L3E.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyGame Intro.py">
+    <entry file="file://$PROJECT_DIR$/L3E.png" />
+    <entry file="file://$PROJECT_DIR$/programs/PyGame Intro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
@@ -394,7 +438,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program.py">
+    <entry file="file://$PROJECT_DIR$/programs/program.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
@@ -404,27 +448,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ball.py">
+    <entry file="file://$PROJECT_DIR$/programs/ball.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cannon ball.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cannon ball.png" />
+    <entry file="file://$PROJECT_DIR$/L1.png" />
     <entry file="file://$PROJECT_DIR$/FlapPyBird/flappy.py" />
-    <entry file="file://$PROJECT_DIR$/bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L3E.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program.py">
+    <entry file="file://$PROJECT_DIR$/bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/L3E.png" />
+    <entry file="file://$PROJECT_DIR$/programs/program.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
@@ -434,21 +470,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cannon ball.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cannon ball.png" />
+    <entry file="file://$PROJECT_DIR$/L1.png" />
     <entry file="file://$PROJECT_DIR$/FlapPyBird/flappy.py" />
-    <entry file="file://$PROJECT_DIR$/ball.py">
+    <entry file="file://$PROJECT_DIR$/programs/ball.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PyGame Intro.py">
+    <entry file="file://$PROJECT_DIR$/programs/PyGame Intro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
           <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
@@ -458,13 +490,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L3E.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program.py">
+    <entry file="file://$PROJECT_DIR$/bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/L3E.png" />
+    <entry file="file://$PROJECT_DIR$/programs/program.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
@@ -474,21 +502,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cannon ball.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cannon ball.png" />
+    <entry file="file://$PROJECT_DIR$/L1.png" />
     <entry file="file://$PROJECT_DIR$/FlapPyBird/flappy.py" />
-    <entry file="file://$PROJECT_DIR$/ball.py">
+    <entry file="file://$PROJECT_DIR$/programs/ball.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
           <caret line="82" column="26" lean-forward="true" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PyGame Intro.py">
+    <entry file="file://$PROJECT_DIR$/programs/PyGame Intro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1410">
           <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
@@ -498,13 +522,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L3E.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PyGame Intro.py">
+    <entry file="file://$PROJECT_DIR$/bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/L3E.png" />
+    <entry file="file://$PROJECT_DIR$/programs/PyGame Intro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1410">
           <caret line="95" column="18" lean-forward="true" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
@@ -515,7 +535,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlapPyBird/flappy.py" />
-    <entry file="file://$PROJECT_DIR$/program.py">
+    <entry file="file://$PROJECT_DIR$/programs/program.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
@@ -525,7 +545,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PyGame Intro.py">
+    <entry file="file://$PROJECT_DIR$/programs/PyGame Intro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="53" column="63" lean-forward="true" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
@@ -536,7 +556,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlapPyBird/flappy.py" />
-    <entry file="file://$PROJECT_DIR$/PyGame Intro.py">
+    <entry file="file://$PROJECT_DIR$/programs/PyGame Intro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2550">
           <caret line="170" column="62" selection-start-line="170" selection-start-column="62" selection-end-line="170" selection-end-column="62" />
@@ -547,7 +567,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlapPyBird/flappy.py" />
-    <entry file="file://$PROJECT_DIR$/PyGame Intro.py">
+    <entry file="file://$PROJECT_DIR$/programs/PyGame Intro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2535">
           <caret line="170" column="62" selection-start-line="170" selection-start-column="62" selection-end-line="170" selection-end-column="62" />
@@ -557,21 +577,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Convert mp3 to wav.py">
+    <entry file="file://$PROJECT_DIR$/programs/Convert mp3 to wav.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upper case.py">
+    <entry file="file://$PROJECT_DIR$/programs/upper case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test">
+    <entry file="file://$PROJECT_DIR$/programs/test">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
@@ -586,9 +606,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PyGame Intro.py">
+    <entry file="file://$PROJECT_DIR$/programs/PyGame Intro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2820">
+        <state>
           <caret line="189" selection-start-line="189" selection-end-line="189" selection-end-column="43" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -596,9 +616,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program.py">
+    <entry file="file://$PROJECT_DIR$/programs/program.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="150">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -606,35 +626,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ball.py">
+    <entry file="file://$PROJECT_DIR$/pygame-tutorials/Game/Tutorial #6.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cannon ball.png" />
+    <entry file="file://$PROJECT_DIR$/L1.png" />
+    <entry file="file://$PROJECT_DIR$/bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/L3E.png" />
+    <entry file="file://$PROJECT_DIR$/programs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programs/ball.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="83" column="36" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pygame-tutorials/Game/Tutorial #6.py">
+    <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cannon ball.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/L1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L3E.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/balljump_classes.py">
+    <entry file="file://$PROJECT_DIR$/test/balljump_classes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="146">
+          <caret line="53" column="45" lean-forward="true" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
