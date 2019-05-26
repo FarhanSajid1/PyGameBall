@@ -62,7 +62,7 @@
           <file leaf-file-name="PyGame Intro.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/programs/PyGame Intro.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
+                <state relative-caret-position="2820">
                   <caret line="189" selection-start-line="189" selection-end-line="189" selection-end-column="43" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
@@ -74,7 +74,7 @@
           <file leaf-file-name="program.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/programs/program.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
+                <state relative-caret-position="105">
                   <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
                   <folding>
                     <element signature="e#0#10#0" expanded="true" />
@@ -100,8 +100,8 @@
           <file leaf-file-name="balljump_classes.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/balljump_classes.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="146">
-                  <caret line="53" column="45" lean-forward="true" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+                <state relative-caret-position="765">
+                  <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
                   </folding>
@@ -118,7 +118,7 @@
             <entry file="file://$PROJECT_DIR$/test/test_game.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="150">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
                 </state>
               </provider>
             </entry>
@@ -140,8 +140,8 @@
           <file leaf-file-name="balljump_classes.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/balljump_classes.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+                <state relative-caret-position="250">
+                  <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
                   </folding>
@@ -199,11 +199,12 @@
         <option value="$PROJECT_DIR$/programs/test_game.py" />
         <option value="$PROJECT_DIR$/test_game.py" />
         <option value="$PROJECT_DIR$/test/__init__.py" />
+        <option value="$PROJECT_DIR$/test/balljump_classes.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-24" />
+    <option name="x" value="142" />
     <option name="y" value="23" />
     <option name="width" value="1366" />
     <option name="height" value="692" />
@@ -221,11 +222,6 @@
             <path>
               <item name="PygameTut" type="b2602c69:ProjectViewProjectNode" />
               <item name="PygameTut" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PygameTut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PygameTut" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -400,18 +396,17 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="23" width="1366" height="693" extended-state="6" />
-    <editor active="true" />
+    <frame x="-24" y="23" width="1366" height="692" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13457249" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3277311" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.23825504" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32718122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32550335" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32436976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39765102" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -608,7 +603,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/programs/PyGame Intro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="2820">
           <caret line="189" selection-start-line="189" selection-end-line="189" selection-end-column="43" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -618,7 +613,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/programs/program.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="105">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -651,8 +646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/balljump_classes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="53" column="45" lean-forward="true" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+        <state relative-caret-position="250">
+          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -662,7 +657,7 @@
     <entry file="file://$PROJECT_DIR$/test/test_game.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
